@@ -1,2 +1,1 @@
-# css-practice
-css-practice
+Run  `index.html` to run the project
