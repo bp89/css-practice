@@ -1,0 +1,114 @@
+
+/* tag level css:starts */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190629/pngtree-white-festive-seamless-pattern-image_263333.jpg');
+  background-size: auto;
+  font-family: monospace;
+  margin: 30%;
+  text-transform: capitalize;
+  font-family: 'Yeon Sung', cursive;
+  font-weight: bolder;
+/* backgrpound clip is used for deciding in what area the backgrpound will be shown */
+  background-clip: content-box;
+
+
+}
+
+p {
+  color:blue;
+  margin:0;
+}
+
+div{
+  padding: 10px 0;
+}
+
+
+input {
+  width:300px;
+  padding: 12px 8px ;
+  border-radius: 4px;
+  border: none;
+}
+
+a {
+
+  color: #086274;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+button{
+  background-color: #1a8099;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  float: none;
+
+  height: 40px;
+  /* display: none; */
+
+}
+
+span{
+  vertical-align: super;
+
+}
+/* tag level css:ends */
+
+/* classes */
+.login-container {
+  background-color: #ebebeb;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 8px #fbcdea;
+  opacity: .7;
+
+}
+
+.form-control{
+  padding-top: 24px;
+  vertical-align: top;
+}
+
+.reset-password{
+  text-align: right;
+  padding-right: 32px;
+}
+.form-title{
+  text-align: left;
+  padding-left: 24px;
+  color: red;
+}
+
+.notification {
+    position: absolute;
+    left: 5;
+    top:5;
+    background-color: #feadea;
+    border: 1px groove #aeaeae;
+    border-radius: 10%;
+    width: 150px;
+    animation: mymove 8s infinite;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+
+.close-icon{
+  cursor: pointer;
+  text-align: right;
+  margin: 0;
+  padding: 0 15px 0 0;
+  border-bottom: 1px solid #edeaed;
+  margin-bottom: 10px;
+}
+/* padding: top right bottom left */
