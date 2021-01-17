@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding:0;
+}
+.progress-bar{
+  display: flex;
+  flex-direction: row-reverse;
+  align-content:flex-start;
+}
+
+.progress-l{
+  width: 25%;
+  text-align: center;
+  background-color: #4caf50;
+  padding: 12px 0;
+}
+.progress-m{
+  width: 25%;
+  text-align: center;
+  background-color: red;
+  padding: 12px 0;
+}
+.progress-r{
+  width: 50%;
+  background-color: grey;
+}
+
+
+.user {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 8px;
+  margin: 20px;
+}
+
+.user-div {
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+  color: #efad88;
+  font-size: 24px;
+}
+
+.avatar-small {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
