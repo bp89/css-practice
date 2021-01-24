@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/theme-1.css">
+
+    <link rel="stylesheet" href="css/theme-2.css">
+
+    <link rel="stylesheet" href="css/theme-3.css">
+
+    <link rel="stylesheet" href="css/theme-4.css">
+
+    <script type="text/javascript">
+      function disableAll(){
+          document.styleSheets[0].disabled=true;
+          document.styleSheets[1].disabled=true;
+          document.styleSheets[2].disabled=true;
+          document.styleSheets[3].disabled=true;
+      }
+
+      function enableStyle(index){
+        disableAll();
+        document.styleSheets[index].disabled=false;
+      }
+    </script>
+  </head>
+  <body>
+<div class="menu">
+  <div class="left-menu">
+
+    <div class="l-item">
+      <img class="logo" src="images/logo.png" alt="">
+    </div>
+
+    <div class="l-item">
+      SoftIV
+    </div>
+  </div>
+  <div class="right-menu">
+    <a class="item" href="javascript:enableStyle(0)">
+      Theme-1
+    </a>
+    <a class="item" href="javascript:enableStyle(1)">
+      Theme-2
+    </a>
+    <a class="item" href="javascript:enableStyle(2)">
+      Theme-3
+    </a>
+    <a class="item" href="javascript:enableStyle(3)">
+      Theme-4
+    </a>
+  </div>
+
+</div>
+
+  </body>
+</html>

@@ -72,6 +72,7 @@ span{
 
 .form-control{
   padding-top: 24px;
+  padding: 20px 5px 10px 8px;
   vertical-align: top;
 }
 
@@ -94,12 +95,12 @@ span{
     border-radius: 10%;
     width: 150px;
     animation: mymove 8s infinite;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
 
 }
 
 @keyframes mymove {
-  from {left: 0px;}
+  from {top: 0px;}
   to {left: 100%;}
 }
 

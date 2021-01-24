@@ -1,0 +1,31 @@
+body{
+  background-color: #FFFAFA;
+  margin: 0;
+  padding:0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F5DC;
+  align-content: center;
+  align-items: center;
+}
+
+.item, .l-item{
+  padding: 4px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: #808080;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height:40px;
+  width: 80px;
+}

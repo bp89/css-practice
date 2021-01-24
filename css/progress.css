@@ -1,3 +1,5 @@
+@import "progress-import.css";
+
 body{
   margin:0;
   padding:0;
@@ -23,27 +25,4 @@ body{
 .progress-r{
   width: 50%;
   background-color: grey;
-}
-
-
-.user {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 2px 3px 8px;
-  margin: 20px;
-}
-
-.user-div {
-  padding: 20px;
-  background-color: white;
-  border-bottom: 1px solid #eaeaea;
-  color: #efad88;
-  font-size: 24px;
-}
-
-.avatar-small {
-  height: 50px;
-  width: 50px;
-  vertical-align: middle;
-  border-radius: 50%;
 }
