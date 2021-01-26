@@ -1,3 +1,4 @@
+@import "progress-import.css";
 :root {
   --link-color: #663399;
   --border-color: #898989;
@@ -41,6 +42,8 @@ body{
   border-right: 1px solid var(--border-color);
   box-shadow: 4px 5px 10px;
 }
+
+
 .logo{
   height: 40px;
   width: 80px;

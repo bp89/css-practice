@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Grid</title>
 
+
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/grid-xs.css">
   </head>
   <body>
 
@@ -38,52 +40,20 @@
         </ul>
       </div>
       <div class="page-body">
-        <h4>How var() Works</h4>
-First of all: CSS variables can have a global or local scope.
 
-Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+        <div class="user">
+          <div class="user-div">
+            <img class="avatar-small" src="images/avatar2.png"/>
+            Mike
+          </div>
+          <div class="user-div">
+          <img class="avatar-small" src="images/avatar2.png"/>  Jill
+          </div>
+          <div class="user-div">
+          <img class="avatar-small" src="images/avatar2.png"/>  Jane
+          </div>
+        </div>
 
-To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
-
-To create a variable with local scope, declare it inside the selector that is going to use it.
-
-The following example is equal to the example above, but here we use the var() function.
-
-First, we declare two global variables (--blue and --white). Then, we use the var() function to insert the value of the variables later in the style sheet:
-
-<h3>Browser Support</h3>
-The numbers in the table specify the first browser version that fully supports the var() function.
-
-<h4>How var() Works</h4>
-First of all: CSS variables can have a global or local scope.
-
-Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
-
-To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
-
-To create a variable with local scope, declare it inside the selector that is going to use it.
-
-The following example is equal to the example above, but here we use the var() function.
-
-First, we declare two global variables (--blue and --white). Then, we use the var() function to insert the value of the variables later in the style sheet:
-
-<h3>Browser Support</h3>
-The numbers in the table specify the first browser version that fully supports the var() function.
-<h4>How var() Works</h4>
-First of all: CSS variables can have a global or local scope.
-
-Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
-
-To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
-
-To create a variable with local scope, declare it inside the selector that is going to use it.
-
-The following example is equal to the example above, but here we use the var() function.
-
-First, we declare two global variables (--blue and --white). Then, we use the var() function to insert the value of the variables later in the style sheet:
-
-<h3>Browser Support</h3>
-The numbers in the table specify the first browser version that fully supports the var() function.
       </div>
       <div class="footer">
         footer
